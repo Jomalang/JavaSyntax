@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="System.out.println(p.prv); // 에러, 접근 범위가 안맞음."/>
+		<list key="findhistory">
+			<item value="System.out.println(p.prv); // 에러, 접근 범위가 안맞음."/>
+			<item value="System.out.println(prv); //에러 // private라서"/>
+			<item value="int channel; //채널 번호"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="420"/>
+		<item key="DIALOG_Y_ORIGIN" value="583"/>
+	</section>
+</section>

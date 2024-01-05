@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CH10/src/CalendarEX.java&apos; to &apos;EX10_1.java&apos;" description="Rename resource &apos;CalendarEX.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/CalendarEX.java" name="EX10_1.java" stamp="1704289499816" updateReferences="true"/>
+</session>
