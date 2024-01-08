@@ -1,0 +1,41 @@
+import java.util.Calendar;
+
+public class EX10_5 {
+	public static void main(String[] args) {
+		if(args.length != 2)
+		{
+			System.out.println("Usage : java EX10_5 2024 1");
+			return;
+		}
+		
+		int year = Integer.parseInt(args[0]);
+		int month = Integer.parseInt(args[1]);
+		int START_DAY_OF_WEEK = 0;
+		int END_DAY = 0;
+		
+		Calendar sDAY = Calendar.getInstance(); //시작일
+		Calendar eDAY = Calendar.getInstance(); //끝 일
+		
+		//월의 경우 0부터 11까지의 값을 가지므로 1을 빼주어야 한다.
+		sDAY.set(year, month-1, 1); //입력 월의 1일로 설정
+		eDAY.set(year, month, 1); //입력월의 말일로 설정
+		
+		//1일이 속한 주의 일요일로 날짜 설정
+		eDAY.add(Calendar.DATE, -sDAY.get(Calendar.DAY_OF_WEEK) + 1);
+		//말일이 속한 주의 토요일로 날짜 설정
+		eDAY.add(Calendar.DATE, 7 - eDAY.get(Calendar.DAY_OF_WEEK));
+		
+		System.out.println("	" + year + "년" + month + "월");
+		System.out.println(" SU MO TU WE TH FR SA");
+		
+		// 시작일부터 마지막 일까지 1일씩 증가시키면서 일을 출력
+		for(int n = 1; sDAY.before(eDAY) || sDAY.equals(eDAY); sDAY.add(Calendar.DATE, 1))
+		{
+			int day = sDAY.get(Calendar.DATE);
+			System.out.println((day < 10) ? "  "+day : " "+day);
+			if(n++%7 == 0)
+				System.out.println();
+		}
+		
+	}
+}
