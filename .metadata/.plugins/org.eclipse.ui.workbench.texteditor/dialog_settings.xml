@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="System.out.println(p.prv); // 에러, 접근 범위가 안맞음."/>
+		<item key="selection" value="&#x09;&#x09;if (args.length != 1) {"/>
 		<list key="findhistory">
+			<item value="&#x09;&#x09;if (args.length != 1) {"/>
 			<item value="System.out.println(p.prv); // 에러, 접근 범위가 안맞음."/>
 			<item value="System.out.println(prv); //에러 // private라서"/>
 			<item value="int channel; //채널 번호"/>
