@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="pkg1.Myparent"/>
-<fullyQualifiedTypeName name="pkg2.MyChild"/>
-<fullyQualifiedTypeName name="Time"/>
-<fullyQualifiedTypeName name="Car"/>
 <fullyQualifiedTypeName name="FireEngine"/>
 <fullyQualifiedTypeName name="java.lang.Process"/>
 <fullyQualifiedTypeName name="Buyer"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="Apple"/>
 <fullyQualifiedTypeName name="Box"/>
 <fullyQualifiedTypeName name="Fruit"/>
+<fullyQualifiedTypeName name="FruitBox"/>
+<fullyQualifiedTypeName name="Direction"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="Direction2"/>
 </qualifiedTypeNameHistroy>
