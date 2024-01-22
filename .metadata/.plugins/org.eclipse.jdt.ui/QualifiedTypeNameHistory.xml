@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="FireEngine"/>
-<fullyQualifiedTypeName name="java.lang.Process"/>
-<fullyQualifiedTypeName name="Buyer"/>
-<fullyQualifiedTypeName name="Tv"/>
-<fullyQualifiedTypeName name="Computer"/>
-<fullyQualifiedTypeName name="AudioPlayer"/>
-<fullyQualifiedTypeName name="Unit"/>
-<fullyQualifiedTypeName name="Fighter"/>
-<fullyQualifiedTypeName name="Fightable"/>
 <fullyQualifiedTypeName name="A"/>
 <fullyQualifiedTypeName name="B"/>
 <fullyQualifiedTypeName name="BB"/>
@@ -60,4 +51,13 @@
 <fullyQualifiedTypeName name="Direction"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="Direction2"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="EX12_7"/>
+<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+<fullyQualifiedTypeName name="java.lang.Deprecated"/>
+<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Repeatable"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+<fullyQualifiedTypeName name="EX12_8"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
 </qualifiedTypeNameHistroy>
