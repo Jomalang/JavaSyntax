@@ -31,5 +31,4 @@ public class EX14_3 {
 		boolean result = p2.test(str2);
 		System.out.println(result);
 	}
-
 }
