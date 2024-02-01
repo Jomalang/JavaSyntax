@@ -1,4 +1,4 @@
-import java.util.stream.Stream;
+import java.util.Optional;
 
 public class EX14_0 {
 
@@ -17,7 +17,7 @@ public class EX14_0 {
 //		Function<Integer, int[]> arr = int[]::new;
 //		System.out.println(arr.apply(10).length);
 //		
-		String[] strArr = {"aaa", "ddd", "ccc"};
+//		String[] strArr = {"aaa", "ddd", "ccc"};
 //		List<String> strList = Arrays.asList(strArr);
 		
 //		Stream<String> strStream1 = strList.stream();
@@ -50,8 +50,23 @@ public class EX14_0 {
 //		Stream<Integer> intStream = Stream.iterate(0, n->n+1);
 //		intStream.limit(100).forEach(System.out::println);
 		
-		Stream<Integer> intStream2 = Stream.generate(()->1);
-		intStream2.limit(10).forEach(System.out::println);
+//		Stream<Integer> intStream2 = Stream.generate(()->1);
+//		intStream2.limit(10).forEach(System.out::println);
+		
+		int[] arr = {}; //ok
+		System.out.println("arr.length="+arr.length);
+		
+		int [] arr2 = new int[0]; //ok
+		System.out.println("arr2.length="+arr2.length);
+		
+		Optional<String> opt = null; //ok 하지만 바람직하지 않다.
+		Optional<String> opt2 = Optional.empty(); //OK. 바람직함
+		
+		System.out.println("opt2 ="+opt2);
+		
+		System.out.println(opt2.orElse("null")); //예외 발생시 문자열 "null"가져옴
+		
+		System.out.println(opt2.orElseGet(String::new));
 	}
 	
 }
