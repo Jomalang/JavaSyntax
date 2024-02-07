@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
     <libraryInfo home="C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot" version="11.0.16.1"/>
+    <libraryInfo home="C:\JDK17(Adoptium Eclipse Temurin)" version="17.0.10"/>
     <libraryInfo home="C:\Jdk1.8" version="1.8.0_292">
         <bootpath>
             <entry path="C:\Jdk1.8\jre\lib\resources.jar"/>
